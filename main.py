@@ -23,4 +23,4 @@ async def on_message(message):
     answer, log = askgpt(message.content, log)
     await message.channel.send(answer)
 
-client.run("MTA5MTMyMzYxODcyMzY0NzUzMQ.GStStL.QD30LUAzTWUUVAWgPrMS9RCRMA2hswXYbCucCk")
+client.run(BOT_TOKEN)
